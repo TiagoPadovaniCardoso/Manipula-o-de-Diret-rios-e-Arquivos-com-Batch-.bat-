@@ -19,7 +19,7 @@ rmdir pasta_antiga
 #### Exibe a lista de arquivos e pastas no diretório atual.
 - ### Exemplo:
 ```
-dir
+dir C:\Pasta
 ```
 
 - # mkdir=
@@ -39,25 +39,27 @@ cd Documents
 ```
 
 - # rename=
-- ### Exemplo:
 - ### Explicação:
 #### Renomeia o arquivo "arquivo.txt" para "novo_arquivo.txt".
+- ### Exemplo:
 ```
 rename arquivo.txt novo_arquivo.txt
 ```
-
 - # type=
+- ### Explicação:
+#### Exibe o conteúdo do arquivo "arquivo.txt".
 - ### Exemplo: 
 ```
 type arquivo.txt
 ```
-- ### Explicação:
-#### Exibe o conteúdo do arquivo "arquivo.txt".
 - # echo=
-- ### Exemplo: 
-
 - ### Explicação:
 #### Exibe a mensagem "Olá, mundo!" no terminal.
+- ### Exemplo: 
 ```
 echo Olá, mundo!
 ```
+## Conclusão
+
+##### Códigos batch são scripts usados para automatizar tarefas no Windows, como backups e movimentação de arquivos, de forma simples e eficiente. Apesar de serem práticos, têm limitações para tarefas mais complexas, sendo frequentemente substituídos por linguagens mais poderosas, como PowerShell ou Python.
+
