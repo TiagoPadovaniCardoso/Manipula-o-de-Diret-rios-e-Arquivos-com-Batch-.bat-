@@ -1,53 +1,56 @@
 # Arquivos com Batch(.bat)
-# O QUE É:
+# O Que é:
 - ### O Batch Processing Operating System, também conhecido como sistema operacional de processamento em lote, é um tipo de sistema operacional que permite a execução de um grande número de tarefas em sequência, sem a necessidade de intervenção do usuário.
+  
 
 ![](https://cafeinacodificada.com.br/wp-content/uploads/2015/12/bat-ping.png)
-- # como funciona e os codigos do Batch:
+<div align="center">
+ <h1>Como funciona e os codigos do Batch:</h1>
+</div>
 
-# MKDIR:
+## MKDIR:
 - ### Explicação: 
 #### Cria um novo diretório chamado "nova_pasta".
 - ### Exemplo:
 ```
  mkdir nova_pasta
 ```
-# RMDIR:
+## RMDIR:
 - ### Explicação: 
 #### Remove o diretório vazio chamado "pasta_antiga".
 - ### Exemplo:
 ```
  rmdir pasta_antiga
 ```
-# DIR:
+## DIR:
 - ### Explicação: 
 #### Exibe a lista de arquivos e pastas no diretório atual.
 - ### Exemplo:
 ```
  dir C:\Pasta
 ```
-# CD:
+## CD:
 - ### Explicação:
   #### Muda o diretório de trabalho para a pasta "Documents".
 - ### Exemplo: 
 ```
  cd Documents
 ```
-# RENAME:
+## RENAME:
 - ### Explicação:
 #### Renomeia o arquivo "arquivo.txt" para "novo_arquivo.txt".
 - ### Exemplo:
 ```
  rename arquivo.txt novo_arquivo.txt
 ```
-# TYPE:
+## TYPE:
 - ### Explicação:
 #### Exibe o conteúdo do arquivo "arquivo.txt".
 - ### Exemplo: 
 ```
  type arquivo.txt
 ```
-# ECHO:
+## ECHO:
 - ### Explicação:
 #### Exibe a mensagem "Olá, mundo!" no terminal.
 - ### Exemplo: 
